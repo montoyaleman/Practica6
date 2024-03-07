@@ -21,24 +21,47 @@
 
         <TextView
             android:id="@+id/tv_nombre_pelicula"
-            android:layout_marginTop="15dp"
             android:layout_width="wrap_content"
             android:layout_height="35dp"
-            android:paddingLeft="25dp"
-            android:textSize="20sp"
-            android:text="Dune 2"
             android:layout_gravity="center"
-            android:textColor="@color/yellow" />
+            android:layout_marginTop="15dp"
+            android:paddingLeft="25dp"
+            android:text="Dune 2"
+            android:textColor="@color/yellow"
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/tv_pelicula_desc"
-            android:layout_marginTop="18dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
             android:paddingLeft="25dp"
-            android:textSize="14sp"
             android:text="Descripcion"
-            android:textColor="@color/yellow" />
+            android:textColor="@color/yellow"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/buyTickets"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/round_button"
+            android:text="BUY MY TICKETS!" />
+
+        <TextView
+            android:id="@+id/seatLeft"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="10dp"
+            android:paddingHorizontal="@dimen/paddingButton"
+            android:text="0"
+            android:textColor="@color/yellow"
+            android:textSize="14sp" />
 
     </LinearLayout>
+
+
 </LinearLayout>
